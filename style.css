@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#valentine-img {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+h2 {
+  color: #e75480;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.acceptance,
+.refuse {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.6s;
+}
+
+.acceptance {
+  background-color: #e75480;
+  color: white;
+}
+
+.refuse {
+  background-color: #5b5b5b;
+  color: white;
+}
+
+.acceptance:hover {
+  background-color: #d64571;
+}
+
+.refuse:hover {
+  background-color: #494949;
+}
